@@ -15,8 +15,8 @@ export const resourceGroupsDescription: INodeProperties[] = [
 			},
 			"options": [
 				{
-					"name": "GET Consumer V 1 Resourcegroups",
-					"value": "GET Consumer V 1 Resourcegroups",
+					"name": "GET Consumer v1 Resourcegroups",
+					"value": "GET Consumer v1 Resourcegroups",
 					"action": "List Resource Groups",
 					"description": "<p>Use this endpoint to return a list of <b>Resource Groups</b> for the requested location. If not specified, the business location defaults to the primary business location.</p>",
 					"routing": {
@@ -43,13 +43,13 @@ export const resourceGroupsDescription: INodeProperties[] = [
 						"Resource Groups"
 					],
 					"operation": [
-						"GET Consumer V 1 Resourcegroups"
+						"GET Consumer v1 Resourcegroups"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Location Id",
+			"displayName": "Location ID",
 			"name": "locationId",
 			"description": "id of business location, defaults to primary business location",
 			"default": "",
@@ -68,7 +68,7 @@ export const resourceGroupsDescription: INodeProperties[] = [
 						"Resource Groups"
 					],
 					"operation": [
-						"GET Consumer V 1 Resourcegroups"
+						"GET Consumer v1 Resourcegroups"
 					]
 				}
 			}
@@ -93,7 +93,7 @@ export const resourceGroupsDescription: INodeProperties[] = [
 						"Resource Groups"
 					],
 					"operation": [
-						"GET Consumer V 1 Resourcegroups"
+						"GET Consumer v1 Resourcegroups"
 					]
 				}
 			}
@@ -118,7 +118,7 @@ export const resourceGroupsDescription: INodeProperties[] = [
 						"Resource Groups"
 					],
 					"operation": [
-						"GET Consumer V 1 Resourcegroups"
+						"GET Consumer v1 Resourcegroups"
 					]
 				}
 			}
@@ -143,7 +143,7 @@ export const resourceGroupsDescription: INodeProperties[] = [
 						"Resource Groups"
 					],
 					"operation": [
-						"GET Consumer V 1 Resourcegroups"
+						"GET Consumer v1 Resourcegroups"
 					]
 				}
 			}

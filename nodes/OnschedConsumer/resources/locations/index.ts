@@ -15,8 +15,8 @@ export const locationsDescription: INodeProperties[] = [
 			},
 			"options": [
 				{
-					"name": "GET Consumer V 1 Locations",
-					"value": "GET Consumer V 1 Locations",
+					"name": "GET Consumer v1 Locations",
+					"value": "GET Consumer v1 Locations",
 					"action": "List Locations",
 					"description": "<p>Use this endpoint to return a <b>List of Business Locations</b>. The results are returned in pages. Use the offset and limit parameters to control the page start and size. Default offset is 0, and limit is 20 and maximum is 100. Use the other query parameters to filter the results further. </p>\r\n<p>\r\n  <b>IMPORTANT DEPRECATION NOTICE</b>: The following online settings parameters were intended for internal use in our Portal application only. They will be deprecated on <b>OCTOBER 15, 2022</b>. These fields are currently part of the <b>SETTINGS</b> object in all location endpoints: <b>businessId, enabled, familyMembersEnabled, serviceLabel, resourceLabel, resourceAnyLabel, resourceSelection, liveMode, formFlow, availabilityForm, showServiceGroups, showOnSchedLogo, showBusinessLogo, disableAuthorization, hideNavBar, hideLocationNav, hideServiceGroupsNav, hideServicesNav, hideContinueBooking, returnToService, returnToAvailability, hideBreadCrumbNav.</b> If you are using these fields, please adjust your code to handle the deprecation or let us know by submitting a ticket to: <b><i>support@onsched.com</i></b> as we do not want to interrupt your existing workflows.</p>",
 					"routing": {
@@ -43,7 +43,7 @@ export const locationsDescription: INodeProperties[] = [
 						"Locations"
 					],
 					"operation": [
-						"GET Consumer V 1 Locations"
+						"GET Consumer v1 Locations"
 					]
 				}
 			}
@@ -68,7 +68,7 @@ export const locationsDescription: INodeProperties[] = [
 						"Locations"
 					],
 					"operation": [
-						"GET Consumer V 1 Locations"
+						"GET Consumer v1 Locations"
 					]
 				}
 			}
@@ -93,7 +93,7 @@ export const locationsDescription: INodeProperties[] = [
 						"Locations"
 					],
 					"operation": [
-						"GET Consumer V 1 Locations"
+						"GET Consumer v1 Locations"
 					]
 				}
 			}
@@ -118,7 +118,7 @@ export const locationsDescription: INodeProperties[] = [
 						"Locations"
 					],
 					"operation": [
-						"GET Consumer V 1 Locations"
+						"GET Consumer v1 Locations"
 					]
 				}
 			}
@@ -143,13 +143,13 @@ export const locationsDescription: INodeProperties[] = [
 						"Locations"
 					],
 					"operation": [
-						"GET Consumer V 1 Locations"
+						"GET Consumer v1 Locations"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Service Id",
+			"displayName": "Service ID",
 			"name": "serviceId",
 			"description": "Locations that offer this service",
 			"default": "",
@@ -168,13 +168,13 @@ export const locationsDescription: INodeProperties[] = [
 						"Locations"
 					],
 					"operation": [
-						"GET Consumer V 1 Locations"
+						"GET Consumer v1 Locations"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Friendly Id",
+			"displayName": "Friendly ID",
 			"name": "friendlyId",
 			"description": "Frienldy Id of location",
 			"default": "",
@@ -193,13 +193,13 @@ export const locationsDescription: INodeProperties[] = [
 						"Locations"
 					],
 					"operation": [
-						"GET Consumer V 1 Locations"
+						"GET Consumer v1 Locations"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Region Id",
+			"displayName": "Region ID",
 			"name": "regionId",
 			"description": "Locations within a specific region",
 			"default": "",
@@ -218,7 +218,7 @@ export const locationsDescription: INodeProperties[] = [
 						"Locations"
 					],
 					"operation": [
-						"GET Consumer V 1 Locations"
+						"GET Consumer v1 Locations"
 					]
 				}
 			}
@@ -243,7 +243,7 @@ export const locationsDescription: INodeProperties[] = [
 						"Locations"
 					],
 					"operation": [
-						"GET Consumer V 1 Locations"
+						"GET Consumer v1 Locations"
 					]
 				}
 			}
@@ -268,7 +268,7 @@ export const locationsDescription: INodeProperties[] = [
 						"Locations"
 					],
 					"operation": [
-						"GET Consumer V 1 Locations"
+						"GET Consumer v1 Locations"
 					]
 				}
 			}
@@ -293,7 +293,7 @@ export const locationsDescription: INodeProperties[] = [
 						"Locations"
 					],
 					"operation": [
-						"GET Consumer V 1 Locations"
+						"GET Consumer v1 Locations"
 					]
 				}
 			}

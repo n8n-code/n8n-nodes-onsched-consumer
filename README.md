@@ -53,16 +53,83 @@ That's it. No configuration files. No code. It just works.
 
 ## Resources
 
-| Resource | Operations |
-|----------|------------|
-| Appointments | Get appointments, Post create appointment, Get custom fields labels, Get custom fields list, Delete appointment, Put book appointment, Put cancel appointment, Put confirm appointment, Put set noshow status, Put reschedule appointment, Put reserve appointment |
-| Availability | Get available times, Get available days, Get unavailable times |
-| Customers | Get list customers, Post create customer, Get customer booking fields, Get list country codes, Get customer custom fields, Get list country states, Delete customer, Put update customer |
-| Locations | Get list locations |
-| Resource Groups | Get list resource groups |
-| Resources | Get list resources, Get resource linked services |
-| Service Groups | Get list service groups |
-| Services | Get list services, Get service allocation, Get list resources for service |
+<details>
+<summary><b>Appointments</b> (11 operations)</summary>
+
+- Get Appointments
+- Post Create Appointment
+- Get Custom Fields Labels
+- Get Custom Fields List
+- Delete Appointment
+- Put Book Appointment
+- Put Cancel Appointment
+- Put Confirm Appointment
+- Put Set NoShow Status
+- Put Reschedule Appointment
+- Put Reserve Appointment
+
+</details>
+
+<details>
+<summary><b>Availability</b> (3 operations)</summary>
+
+- Get Available Times
+- Get Available Days
+- Get Unavailable Times
+
+</details>
+
+<details>
+<summary><b>Customers</b> (8 operations)</summary>
+
+- Get List Customers
+- Post Create Customer
+- Get Customer Booking Fields
+- Get List Country Codes
+- Get Customer Custom Fields
+- Get List Country States
+- Delete Customer
+- Put Update Customer
+
+</details>
+
+<details>
+<summary><b>Locations</b> (1 operations)</summary>
+
+- Get List Locations
+
+</details>
+
+<details>
+<summary><b>Resource Groups</b> (1 operations)</summary>
+
+- Get List Resource Groups
+
+</details>
+
+<details>
+<summary><b>Resources</b> (2 operations)</summary>
+
+- Get List Resources
+- Get Resource Linked Services
+
+</details>
+
+<details>
+<summary><b>Service Groups</b> (1 operations)</summary>
+
+- Get List Service Groups
+
+</details>
+
+<details>
+<summary><b>Services</b> (3 operations)</summary>
+
+- Get List Services
+- Get Service Allocation
+- Get List Resources for Service
+
+</details>
 
 ---
 

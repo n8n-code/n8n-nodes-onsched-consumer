@@ -15,8 +15,8 @@ export const servicesDescription: INodeProperties[] = [
 			},
 			"options": [
 				{
-					"name": "GET Consumer V 1 Services",
-					"value": "GET Consumer V 1 Services",
+					"name": "GET Consumer v1 Services",
+					"value": "GET Consumer v1 Services",
 					"action": "List Services",
 					"description": "<p>Use this endpoint to <b>List Services</b> available at your business location and/or company. If not specified, the business location defaults to the primary business location. Use the offset and limit parameters to control the page start and number of results. Default offset is 0, limit is 20, max is 100. Use the query parameters to filter the results further.</p>",
 					"routing": {
@@ -27,8 +27,8 @@ export const servicesDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "GET Consumer V 1 Services Allocations",
-					"value": "GET Consumer V 1 Services Allocations",
+					"name": "GET Consumer v1 Services Allocations",
+					"value": "GET Consumer v1 Services Allocations",
 					"action": "Get Service Allocation",
 					"description": "<p>Use this endpoint to return a <b>Service Allocation</b> object. A valid <b>serviceAllocation id</b> is required. Find service allocation id's by using the <i>GET/consumer​/v1​/services​/{id}​/allocations</i> endpoint.</p>",
 					"routing": {
@@ -39,8 +39,8 @@ export const servicesDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "GET Consumer V 1 Services Resources",
-					"value": "GET Consumer V 1 Services Resources",
+					"name": "GET Consumer v1 Services Resources",
+					"value": "GET Consumer v1 Services Resources",
 					"action": "List Resources for Service",
 					"description": "<p>Use this endpoint to return a list of <b>Resources that provide the Service requested</b>. A valid <b>service id</b> is required. The results are returned in pages. Use the offset and limit parameters to control the page start and number of results. Default offset is 0, limit is 20, max is 100. Use the query parameters to filter the results further.</p>",
 					"routing": {
@@ -67,13 +67,13 @@ export const servicesDescription: INodeProperties[] = [
 						"Services"
 					],
 					"operation": [
-						"GET Consumer V 1 Services"
+						"GET Consumer v1 Services"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Location Id",
+			"displayName": "Location ID",
 			"name": "locationId",
 			"description": "id of business location, defaults to primary business location",
 			"default": "",
@@ -92,13 +92,13 @@ export const servicesDescription: INodeProperties[] = [
 						"Services"
 					],
 					"operation": [
-						"GET Consumer V 1 Services"
+						"GET Consumer v1 Services"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Service Group Id",
+			"displayName": "Service Group ID",
 			"name": "serviceGroupId",
 			"description": "Filter by groupId",
 			"default": 0,
@@ -117,7 +117,7 @@ export const servicesDescription: INodeProperties[] = [
 						"Services"
 					],
 					"operation": [
-						"GET Consumer V 1 Services"
+						"GET Consumer v1 Services"
 					]
 				}
 			}
@@ -142,7 +142,7 @@ export const servicesDescription: INodeProperties[] = [
 						"Services"
 					],
 					"operation": [
-						"GET Consumer V 1 Services"
+						"GET Consumer v1 Services"
 					]
 				}
 			}
@@ -167,7 +167,7 @@ export const servicesDescription: INodeProperties[] = [
 						"Services"
 					],
 					"operation": [
-						"GET Consumer V 1 Services"
+						"GET Consumer v1 Services"
 					]
 				}
 			}
@@ -206,7 +206,7 @@ export const servicesDescription: INodeProperties[] = [
 						"Services"
 					],
 					"operation": [
-						"GET Consumer V 1 Services"
+						"GET Consumer v1 Services"
 					]
 				}
 			}
@@ -231,13 +231,13 @@ export const servicesDescription: INodeProperties[] = [
 						"Services"
 					],
 					"operation": [
-						"GET Consumer V 1 Services"
+						"GET Consumer v1 Services"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Service Id",
+			"displayName": "Service ID",
 			"name": "serviceId",
 			"description": "Filter by ServiceId, using this parameter would ignore all other parameters",
 			"default": "",
@@ -256,7 +256,7 @@ export const servicesDescription: INodeProperties[] = [
 						"Services"
 					],
 					"operation": [
-						"GET Consumer V 1 Services"
+						"GET Consumer v1 Services"
 					]
 				}
 			}
@@ -281,7 +281,7 @@ export const servicesDescription: INodeProperties[] = [
 						"Services"
 					],
 					"operation": [
-						"GET Consumer V 1 Services"
+						"GET Consumer v1 Services"
 					]
 				}
 			}
@@ -306,7 +306,7 @@ export const servicesDescription: INodeProperties[] = [
 						"Services"
 					],
 					"operation": [
-						"GET Consumer V 1 Services"
+						"GET Consumer v1 Services"
 					]
 				}
 			}
@@ -341,7 +341,7 @@ export const servicesDescription: INodeProperties[] = [
 						"Services"
 					],
 					"operation": [
-						"GET Consumer V 1 Services"
+						"GET Consumer v1 Services"
 					]
 				}
 			}
@@ -366,7 +366,7 @@ export const servicesDescription: INodeProperties[] = [
 						"Services"
 					],
 					"operation": [
-						"GET Consumer V 1 Services"
+						"GET Consumer v1 Services"
 					]
 				}
 			}
@@ -385,13 +385,13 @@ export const servicesDescription: INodeProperties[] = [
 						"Services"
 					],
 					"operation": [
-						"GET Consumer V 1 Services Allocations"
+						"GET Consumer v1 Services Allocations"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Id",
+			"displayName": "ID",
 			"name": "id",
 			"required": true,
 			"description": "id of serviceAllocation object",
@@ -403,7 +403,7 @@ export const servicesDescription: INodeProperties[] = [
 						"Services"
 					],
 					"operation": [
-						"GET Consumer V 1 Services Allocations"
+						"GET Consumer v1 Services Allocations"
 					]
 				}
 			}
@@ -422,13 +422,13 @@ export const servicesDescription: INodeProperties[] = [
 						"Services"
 					],
 					"operation": [
-						"GET Consumer V 1 Services Resources"
+						"GET Consumer v1 Services Resources"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Id",
+			"displayName": "ID",
 			"name": "id",
 			"required": true,
 			"description": "id of service object",
@@ -440,13 +440,13 @@ export const servicesDescription: INodeProperties[] = [
 						"Services"
 					],
 					"operation": [
-						"GET Consumer V 1 Services Resources"
+						"GET Consumer v1 Services Resources"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Location Id",
+			"displayName": "Location ID",
 			"name": "locationId",
 			"description": "id of business location, defaults to primary business location",
 			"default": "",
@@ -465,7 +465,7 @@ export const servicesDescription: INodeProperties[] = [
 						"Services"
 					],
 					"operation": [
-						"GET Consumer V 1 Services Resources"
+						"GET Consumer v1 Services Resources"
 					]
 				}
 			}
@@ -490,7 +490,7 @@ export const servicesDescription: INodeProperties[] = [
 						"Services"
 					],
 					"operation": [
-						"GET Consumer V 1 Services Resources"
+						"GET Consumer v1 Services Resources"
 					]
 				}
 			}
@@ -515,7 +515,7 @@ export const servicesDescription: INodeProperties[] = [
 						"Services"
 					],
 					"operation": [
-						"GET Consumer V 1 Services Resources"
+						"GET Consumer v1 Services Resources"
 					]
 				}
 			}

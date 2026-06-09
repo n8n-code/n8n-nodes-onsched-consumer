@@ -15,8 +15,8 @@ export const resourcesDescription: INodeProperties[] = [
 			},
 			"options": [
 				{
-					"name": "GET Consumer V 1 Resources",
-					"value": "GET Consumer V 1 Resources",
+					"name": "GET Consumer v1 Resources",
+					"value": "GET Consumer v1 Resources",
 					"action": "List Resources",
 					"description": "<p>Use this endpoint to return a <b>List of Resources</b> associated with a business location. If not specified, the business location defaults to the primary business location. The results are returned in pages. Use the offset and limit parameters to control the page start and number of results. Default offset is 0, limit is 20, max is 100. Use the query parameters to filter the results further.</p>",
 					"routing": {
@@ -27,8 +27,8 @@ export const resourcesDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "GET Consumer V 1 Resources Services",
-					"value": "GET Consumer V 1 Resources Services",
+					"name": "GET Consumer v1 Resources Services",
+					"value": "GET Consumer v1 Resources Services",
 					"action": "Get Resource Linked Services",
 					"description": "<p>Use this endpoint to get a <b>List of Linked Services</b> associated with the resource requested. The results are returned in pages. Use the offset and limit parameters to control the page start and size. Default offset is 0, limit is 20, the maximum limit is 100. Use the other query parameters to filter the results further.</p>\r\n<p>Resource linked services are used to explicitly define the services that can be booked for a specified resource. By default, all services are bookable for any resource. For more information: <a href=\"https://docs.onsched.com/docs/linked-services\">Linked Services Overview</a></p>",
 					"routing": {
@@ -55,13 +55,13 @@ export const resourcesDescription: INodeProperties[] = [
 						"Resources"
 					],
 					"operation": [
-						"GET Consumer V 1 Resources"
+						"GET Consumer v1 Resources"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Location Id",
+			"displayName": "Location ID",
 			"name": "locationId",
 			"description": "id of business location, defaults to primary business location",
 			"default": "",
@@ -80,13 +80,13 @@ export const resourcesDescription: INodeProperties[] = [
 						"Resources"
 					],
 					"operation": [
-						"GET Consumer V 1 Resources"
+						"GET Consumer v1 Resources"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Resource Group Id",
+			"displayName": "Resource Group ID",
 			"name": "resourceGroupId",
 			"description": "Filter by groupId",
 			"default": 0,
@@ -105,7 +105,7 @@ export const resourcesDescription: INodeProperties[] = [
 						"Resources"
 					],
 					"operation": [
-						"GET Consumer V 1 Resources"
+						"GET Consumer v1 Resources"
 					]
 				}
 			}
@@ -130,7 +130,7 @@ export const resourcesDescription: INodeProperties[] = [
 						"Resources"
 					],
 					"operation": [
-						"GET Consumer V 1 Resources"
+						"GET Consumer v1 Resources"
 					]
 				}
 			}
@@ -155,7 +155,7 @@ export const resourcesDescription: INodeProperties[] = [
 						"Resources"
 					],
 					"operation": [
-						"GET Consumer V 1 Resources"
+						"GET Consumer v1 Resources"
 					]
 				}
 			}
@@ -180,7 +180,7 @@ export const resourcesDescription: INodeProperties[] = [
 						"Resources"
 					],
 					"operation": [
-						"GET Consumer V 1 Resources"
+						"GET Consumer v1 Resources"
 					]
 				}
 			}
@@ -205,7 +205,7 @@ export const resourcesDescription: INodeProperties[] = [
 						"Resources"
 					],
 					"operation": [
-						"GET Consumer V 1 Resources"
+						"GET Consumer v1 Resources"
 					]
 				}
 			}
@@ -230,7 +230,7 @@ export const resourcesDescription: INodeProperties[] = [
 						"Resources"
 					],
 					"operation": [
-						"GET Consumer V 1 Resources"
+						"GET Consumer v1 Resources"
 					]
 				}
 			}
@@ -249,13 +249,13 @@ export const resourcesDescription: INodeProperties[] = [
 						"Resources"
 					],
 					"operation": [
-						"GET Consumer V 1 Resources Services"
+						"GET Consumer v1 Resources Services"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Id",
+			"displayName": "ID",
 			"name": "id",
 			"required": true,
 			"description": "id of resource object",
@@ -267,7 +267,7 @@ export const resourcesDescription: INodeProperties[] = [
 						"Resources"
 					],
 					"operation": [
-						"GET Consumer V 1 Resources Services"
+						"GET Consumer v1 Resources Services"
 					]
 				}
 			}
@@ -292,7 +292,7 @@ export const resourcesDescription: INodeProperties[] = [
 						"Resources"
 					],
 					"operation": [
-						"GET Consumer V 1 Resources Services"
+						"GET Consumer v1 Resources Services"
 					]
 				}
 			}
@@ -317,7 +317,7 @@ export const resourcesDescription: INodeProperties[] = [
 						"Resources"
 					],
 					"operation": [
-						"GET Consumer V 1 Resources Services"
+						"GET Consumer v1 Resources Services"
 					]
 				}
 			}

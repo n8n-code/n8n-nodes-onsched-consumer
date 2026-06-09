@@ -10,14 +10,14 @@ import { servicesDescription } from './resources/services';
 
 export class OnschedConsumer implements INodeType {
 	description: INodeTypeDescription = {
-		displayName: 'onsched-consumer',
+		displayName: 'Onsched Consumer',
 		name: 'N8nDevOnschedConsumer',
 		icon: { light: 'file:./onsched-consumer.svg', dark: 'file:./onsched-consumer.dark.svg' },
 		group: ['input'],
 		version: 1,
 		subtitle: '={{\$parameter["operation"] + ": " + \$parameter["resource"]}}',
 		description: 'Build secure and scalable custom apps for Online Booking. Our flexible API provides many options for availability and booking',
-		defaults: { name: 'onsched-consumer' },
+		defaults: { name: 'Onsched Consumer' },
 		usableAsTool: true,
 		inputs: [NodeConnectionTypes.Main],
 		outputs: [NodeConnectionTypes.Main],

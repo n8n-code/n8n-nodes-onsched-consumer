@@ -15,8 +15,8 @@ export const customersDescription: INodeProperties[] = [
 			},
 			"options": [
 				{
-					"name": "GET Consumer V 1 Customers",
-					"value": "GET Consumer V 1 Customers",
+					"name": "GET Consumer v1 Customers",
+					"value": "GET Consumer v1 Customers",
 					"action": "List Customers",
 					"description": "<p>Use this endpoint to return a <b>List of Customers</b>. The results are returned in pages. Use the offset and limit parameters to control the page start and number of results. Default offset is 0, limit is 20, max is 100. Use the query parameters to filter the results further.</p>",
 					"routing": {
@@ -27,8 +27,8 @@ export const customersDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "POST Consumer V 1 Customers",
-					"value": "POST Consumer V 1 Customers",
+					"name": "POST Consumer v1 Customers",
+					"value": "POST Consumer v1 Customers",
 					"action": "Create Customer",
 					"description": "<p>Use this endpoint to <b>Create</b> a new Customer. A customer object is automatically created with the first appointment booking if it doesn't already exist. If not specified, the business location id defaults to the primary business location.</p>\r\n<p>Required Fields: <b>Email</b> and <b>Name</b> or <b>First and Lastname</b> depending on customer type. Type 0 = Person, Type 1 = Business. For type 0, the firstname and lastname fields are used. For type 1, the Name field is used, and the name field is also used to populate the lastname.</p>",
 					"routing": {
@@ -39,8 +39,8 @@ export const customersDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "GET Consumer V 1 Customers Bookingfields",
-					"value": "GET Consumer V 1 Customers Bookingfields",
+					"name": "GET Consumer v1 Customers Bookingfields",
+					"value": "GET Consumer v1 Customers Bookingfields",
 					"action": "Get Customer Booking Fields",
 					"description": "<p>Use this endpoint to return <b>Customer Booking Fields</b>. Customer booking fields are stored with each customer object. They are used when the information collected during the booking is for a particular customer. Customer Booking Fields include any custom customer fields you define and want to capture with the Booking.</p>",
 					"routing": {
@@ -51,8 +51,8 @@ export const customersDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "GET Consumer V 1 Customers Countries",
-					"value": "GET Consumer V 1 Customers Countries",
+					"name": "GET Consumer v1 Customers Countries",
+					"value": "GET Consumer v1 Customers Countries",
 					"action": "List Country Codes",
 					"description": "<p>Use this endpoint to return a <b>List of Countries with their associated Country Code</b>. Country codes are based on the 2-character ANSI standard. If your countries of operation are not currently listed, contact us at <i><b>support@onsched.com</b></i>.</p>",
 					"routing": {
@@ -63,8 +63,8 @@ export const customersDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "GET Consumer V 1 Customers Customfields",
-					"value": "GET Consumer V 1 Customers Customfields",
+					"name": "GET Consumer v1 Customers Customfields",
+					"value": "GET Consumer v1 Customers Customfields",
 					"action": "Get Customer Custom Fields",
 					"description": "<p>Use this endpoint to return <b>Customer Custom Fields</b>. Customer custom fields are stored with the customer object. They are used when the information collected during the booking is specific to a particular customer.</p>",
 					"routing": {
@@ -75,8 +75,8 @@ export const customersDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "GET Consumer V 1 Customers States",
-					"value": "GET Consumer V 1 Customers States",
+					"name": "GET Consumer v1 Customers States",
+					"value": "GET Consumer v1 Customers States",
 					"action": "List Country States",
 					"description": "<p>Use this endpoint to return a <b>List of Countries with their associated State Codes</b>. Supply a country code to filter results further. If states for your countries of operation are not currently listed, contact us at <i><b>support@onsched.com</b></i>.</p>",
 					"routing": {
@@ -87,8 +87,8 @@ export const customersDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "DELETE Consumer V 1 Customers",
-					"value": "DELETE Consumer V 1 Customers",
+					"name": "DELETE Consumer v1 Customers",
+					"value": "DELETE Consumer v1 Customers",
 					"action": "Delete Customer",
 					"description": "<p>Use this endpoint to permanently <b>Delete</b> a Customer object. A valid <b>customer id</b> is required.</p>",
 					"routing": {
@@ -99,8 +99,8 @@ export const customersDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "PUT Consumer V 1 Customers",
-					"value": "PUT Consumer V 1 Customers",
+					"name": "PUT Consumer v1 Customers",
+					"value": "PUT Consumer v1 Customers",
 					"action": "Update Customer",
 					"description": "<p>Use this endpoint to <b>Update</b> a Customer object. A valid <b>customer id</b> is required. Note: Blank fields are not changed.</p>",
 					"routing": {
@@ -127,13 +127,13 @@ export const customersDescription: INodeProperties[] = [
 						"Customers"
 					],
 					"operation": [
-						"GET Consumer V 1 Customers"
+						"GET Consumer v1 Customers"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Location Id",
+			"displayName": "Location ID",
 			"name": "locationId",
 			"description": "id of business location, defaults to primary business location",
 			"default": "",
@@ -152,13 +152,13 @@ export const customersDescription: INodeProperties[] = [
 						"Customers"
 					],
 					"operation": [
-						"GET Consumer V 1 Customers"
+						"GET Consumer v1 Customers"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Group Id",
+			"displayName": "Group ID",
 			"name": "groupId",
 			"description": "Filter by groupId",
 			"default": "",
@@ -177,7 +177,7 @@ export const customersDescription: INodeProperties[] = [
 						"Customers"
 					],
 					"operation": [
-						"GET Consumer V 1 Customers"
+						"GET Consumer v1 Customers"
 					]
 				}
 			}
@@ -202,7 +202,7 @@ export const customersDescription: INodeProperties[] = [
 						"Customers"
 					],
 					"operation": [
-						"GET Consumer V 1 Customers"
+						"GET Consumer v1 Customers"
 					]
 				}
 			}
@@ -227,7 +227,7 @@ export const customersDescription: INodeProperties[] = [
 						"Customers"
 					],
 					"operation": [
-						"GET Consumer V 1 Customers"
+						"GET Consumer v1 Customers"
 					]
 				}
 			}
@@ -252,7 +252,7 @@ export const customersDescription: INodeProperties[] = [
 						"Customers"
 					],
 					"operation": [
-						"GET Consumer V 1 Customers"
+						"GET Consumer v1 Customers"
 					]
 				}
 			}
@@ -277,7 +277,7 @@ export const customersDescription: INodeProperties[] = [
 						"Customers"
 					],
 					"operation": [
-						"GET Consumer V 1 Customers"
+						"GET Consumer v1 Customers"
 					]
 				}
 			}
@@ -302,7 +302,7 @@ export const customersDescription: INodeProperties[] = [
 						"Customers"
 					],
 					"operation": [
-						"GET Consumer V 1 Customers"
+						"GET Consumer v1 Customers"
 					]
 				}
 			}
@@ -321,7 +321,7 @@ export const customersDescription: INodeProperties[] = [
 						"Customers"
 					],
 					"operation": [
-						"POST Consumer V 1 Customers"
+						"POST Consumer v1 Customers"
 					]
 				}
 			}
@@ -345,7 +345,7 @@ export const customersDescription: INodeProperties[] = [
 						"Customers"
 					],
 					"operation": [
-						"POST Consumer V 1 Customers"
+						"POST Consumer v1 Customers"
 					]
 				}
 			}
@@ -369,7 +369,7 @@ export const customersDescription: INodeProperties[] = [
 						"Customers"
 					],
 					"operation": [
-						"POST Consumer V 1 Customers"
+						"POST Consumer v1 Customers"
 					]
 				}
 			}
@@ -393,7 +393,7 @@ export const customersDescription: INodeProperties[] = [
 						"Customers"
 					],
 					"operation": [
-						"POST Consumer V 1 Customers"
+						"POST Consumer v1 Customers"
 					]
 				}
 			}
@@ -417,7 +417,7 @@ export const customersDescription: INodeProperties[] = [
 						"Customers"
 					],
 					"operation": [
-						"POST Consumer V 1 Customers"
+						"POST Consumer v1 Customers"
 					]
 				}
 			}
@@ -441,7 +441,7 @@ export const customersDescription: INodeProperties[] = [
 						"Customers"
 					],
 					"operation": [
-						"POST Consumer V 1 Customers"
+						"POST Consumer v1 Customers"
 					]
 				}
 			}
@@ -465,13 +465,13 @@ export const customersDescription: INodeProperties[] = [
 						"Customers"
 					],
 					"operation": [
-						"POST Consumer V 1 Customers"
+						"POST Consumer v1 Customers"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Location Id",
+			"displayName": "Location ID",
 			"name": "locationId",
 			"type": "string",
 			"default": "",
@@ -490,7 +490,7 @@ export const customersDescription: INodeProperties[] = [
 						"Customers"
 					],
 					"operation": [
-						"POST Consumer V 1 Customers"
+						"POST Consumer v1 Customers"
 					]
 				}
 			}
@@ -514,7 +514,7 @@ export const customersDescription: INodeProperties[] = [
 						"Customers"
 					],
 					"operation": [
-						"POST Consumer V 1 Customers"
+						"POST Consumer v1 Customers"
 					]
 				}
 			}
@@ -539,7 +539,7 @@ export const customersDescription: INodeProperties[] = [
 						"Customers"
 					],
 					"operation": [
-						"POST Consumer V 1 Customers"
+						"POST Consumer v1 Customers"
 					]
 				}
 			}
@@ -563,13 +563,13 @@ export const customersDescription: INodeProperties[] = [
 						"Customers"
 					],
 					"operation": [
-						"POST Consumer V 1 Customers"
+						"POST Consumer v1 Customers"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Stripe Customer Id",
+			"displayName": "Stripe Customer ID",
 			"name": "stripeCustomerId",
 			"type": "string",
 			"default": "",
@@ -587,7 +587,7 @@ export const customersDescription: INodeProperties[] = [
 						"Customers"
 					],
 					"operation": [
-						"POST Consumer V 1 Customers"
+						"POST Consumer v1 Customers"
 					]
 				}
 			}
@@ -611,7 +611,7 @@ export const customersDescription: INodeProperties[] = [
 						"Customers"
 					],
 					"operation": [
-						"POST Consumer V 1 Customers"
+						"POST Consumer v1 Customers"
 					]
 				}
 			}
@@ -630,13 +630,13 @@ export const customersDescription: INodeProperties[] = [
 						"Customers"
 					],
 					"operation": [
-						"GET Consumer V 1 Customers Bookingfields"
+						"GET Consumer v1 Customers Bookingfields"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Location Id",
+			"displayName": "Location ID",
 			"name": "locationId",
 			"description": "id of business location, defaults to primary business location",
 			"default": "",
@@ -655,7 +655,7 @@ export const customersDescription: INodeProperties[] = [
 						"Customers"
 					],
 					"operation": [
-						"GET Consumer V 1 Customers Bookingfields"
+						"GET Consumer v1 Customers Bookingfields"
 					]
 				}
 			}
@@ -674,7 +674,7 @@ export const customersDescription: INodeProperties[] = [
 						"Customers"
 					],
 					"operation": [
-						"GET Consumer V 1 Customers Countries"
+						"GET Consumer v1 Customers Countries"
 					]
 				}
 			}
@@ -693,13 +693,13 @@ export const customersDescription: INodeProperties[] = [
 						"Customers"
 					],
 					"operation": [
-						"GET Consumer V 1 Customers Customfields"
+						"GET Consumer v1 Customers Customfields"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Location Id",
+			"displayName": "Location ID",
 			"name": "locationId",
 			"description": "id of business location, defaults to primary business location",
 			"default": "",
@@ -718,7 +718,7 @@ export const customersDescription: INodeProperties[] = [
 						"Customers"
 					],
 					"operation": [
-						"GET Consumer V 1 Customers Customfields"
+						"GET Consumer v1 Customers Customfields"
 					]
 				}
 			}
@@ -743,7 +743,7 @@ export const customersDescription: INodeProperties[] = [
 						"Customers"
 					],
 					"operation": [
-						"GET Consumer V 1 Customers Customfields"
+						"GET Consumer v1 Customers Customfields"
 					]
 				}
 			}
@@ -762,7 +762,7 @@ export const customersDescription: INodeProperties[] = [
 						"Customers"
 					],
 					"operation": [
-						"GET Consumer V 1 Customers States"
+						"GET Consumer v1 Customers States"
 					]
 				}
 			}
@@ -786,7 +786,7 @@ export const customersDescription: INodeProperties[] = [
 						"Customers"
 					],
 					"operation": [
-						"GET Consumer V 1 Customers States"
+						"GET Consumer v1 Customers States"
 					]
 				}
 			}
@@ -805,13 +805,13 @@ export const customersDescription: INodeProperties[] = [
 						"Customers"
 					],
 					"operation": [
-						"DELETE Consumer V 1 Customers"
+						"DELETE Consumer v1 Customers"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Id",
+			"displayName": "ID",
 			"name": "id",
 			"required": true,
 			"description": "id of customer object",
@@ -823,7 +823,7 @@ export const customersDescription: INodeProperties[] = [
 						"Customers"
 					],
 					"operation": [
-						"DELETE Consumer V 1 Customers"
+						"DELETE Consumer v1 Customers"
 					]
 				}
 			}
@@ -842,13 +842,13 @@ export const customersDescription: INodeProperties[] = [
 						"Customers"
 					],
 					"operation": [
-						"PUT Consumer V 1 Customers"
+						"PUT Consumer v1 Customers"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Id",
+			"displayName": "ID",
 			"name": "id",
 			"required": true,
 			"description": "id of customer object",
@@ -860,7 +860,7 @@ export const customersDescription: INodeProperties[] = [
 						"Customers"
 					],
 					"operation": [
-						"PUT Consumer V 1 Customers"
+						"PUT Consumer v1 Customers"
 					]
 				}
 			}
@@ -884,7 +884,7 @@ export const customersDescription: INodeProperties[] = [
 						"Customers"
 					],
 					"operation": [
-						"PUT Consumer V 1 Customers"
+						"PUT Consumer v1 Customers"
 					]
 				}
 			}
@@ -908,7 +908,7 @@ export const customersDescription: INodeProperties[] = [
 						"Customers"
 					],
 					"operation": [
-						"PUT Consumer V 1 Customers"
+						"PUT Consumer v1 Customers"
 					]
 				}
 			}
@@ -932,7 +932,7 @@ export const customersDescription: INodeProperties[] = [
 						"Customers"
 					],
 					"operation": [
-						"PUT Consumer V 1 Customers"
+						"PUT Consumer v1 Customers"
 					]
 				}
 			}
@@ -956,7 +956,7 @@ export const customersDescription: INodeProperties[] = [
 						"Customers"
 					],
 					"operation": [
-						"PUT Consumer V 1 Customers"
+						"PUT Consumer v1 Customers"
 					]
 				}
 			}
@@ -980,7 +980,7 @@ export const customersDescription: INodeProperties[] = [
 						"Customers"
 					],
 					"operation": [
-						"PUT Consumer V 1 Customers"
+						"PUT Consumer v1 Customers"
 					]
 				}
 			}
@@ -1004,13 +1004,13 @@ export const customersDescription: INodeProperties[] = [
 						"Customers"
 					],
 					"operation": [
-						"PUT Consumer V 1 Customers"
+						"PUT Consumer v1 Customers"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Location Id",
+			"displayName": "Location ID",
 			"name": "locationId",
 			"type": "string",
 			"default": "",
@@ -1028,7 +1028,7 @@ export const customersDescription: INodeProperties[] = [
 						"Customers"
 					],
 					"operation": [
-						"PUT Consumer V 1 Customers"
+						"PUT Consumer v1 Customers"
 					]
 				}
 			}
@@ -1052,7 +1052,7 @@ export const customersDescription: INodeProperties[] = [
 						"Customers"
 					],
 					"operation": [
-						"PUT Consumer V 1 Customers"
+						"PUT Consumer v1 Customers"
 					]
 				}
 			}
@@ -1077,13 +1077,13 @@ export const customersDescription: INodeProperties[] = [
 						"Customers"
 					],
 					"operation": [
-						"PUT Consumer V 1 Customers"
+						"PUT Consumer v1 Customers"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Stripe Customer Id",
+			"displayName": "Stripe Customer ID",
 			"name": "stripeCustomerId",
 			"type": "string",
 			"default": "",
@@ -1101,7 +1101,7 @@ export const customersDescription: INodeProperties[] = [
 						"Customers"
 					],
 					"operation": [
-						"PUT Consumer V 1 Customers"
+						"PUT Consumer v1 Customers"
 					]
 				}
 			}
@@ -1125,7 +1125,7 @@ export const customersDescription: INodeProperties[] = [
 						"Customers"
 					],
 					"operation": [
-						"PUT Consumer V 1 Customers"
+						"PUT Consumer v1 Customers"
 					]
 				}
 			}

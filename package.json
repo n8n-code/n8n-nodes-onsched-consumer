@@ -1,6 +1,6 @@
 {
   "name": "@n8n-dev/n8n-nodes-onsched-consumer",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Build secure and scalable custom apps for Online Booking. Our flexible API provides many options for availability and booking",
   "license": "MIT",
   "homepage": "https://n8n-code.github.io/n8n-dev/#/n8n-nodes-onsched-consumer",
@@ -11,7 +11,7 @@
     "n8n-community-node-package",
     "openapi",
     "swagger",
-    "api",
+    "API",
     "automation",
     "workflow",
     "onsched-consumer"

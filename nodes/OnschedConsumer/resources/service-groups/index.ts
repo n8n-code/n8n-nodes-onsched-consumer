@@ -15,8 +15,8 @@ export const serviceGroupsDescription: INodeProperties[] = [
 			},
 			"options": [
 				{
-					"name": "GET Consumer V 1 Servicegroups",
-					"value": "GET Consumer V 1 Servicegroups",
+					"name": "GET Consumer v1 Servicegroups",
+					"value": "GET Consumer v1 Servicegroups",
 					"action": "List Service Groups",
 					"description": "<p>Use this endpoint to return a list of <b>Service Groups</b> for the requested location. If not specified, the business location defaults to the primary business location. Use the offset and limit parameters to control the page start and size. Default offset is 0, limit is 20, maximum is 100. Use the other query parameters to filter the results further.</p>",
 					"routing": {
@@ -43,13 +43,13 @@ export const serviceGroupsDescription: INodeProperties[] = [
 						"Service Groups"
 					],
 					"operation": [
-						"GET Consumer V 1 Servicegroups"
+						"GET Consumer v1 Servicegroups"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Location Id",
+			"displayName": "Location ID",
 			"name": "locationId",
 			"description": "id of business location, defaults to primary business location",
 			"default": "",
@@ -68,7 +68,7 @@ export const serviceGroupsDescription: INodeProperties[] = [
 						"Service Groups"
 					],
 					"operation": [
-						"GET Consumer V 1 Servicegroups"
+						"GET Consumer v1 Servicegroups"
 					]
 				}
 			}
@@ -93,7 +93,7 @@ export const serviceGroupsDescription: INodeProperties[] = [
 						"Service Groups"
 					],
 					"operation": [
-						"GET Consumer V 1 Servicegroups"
+						"GET Consumer v1 Servicegroups"
 					]
 				}
 			}
@@ -118,7 +118,7 @@ export const serviceGroupsDescription: INodeProperties[] = [
 						"Service Groups"
 					],
 					"operation": [
-						"GET Consumer V 1 Servicegroups"
+						"GET Consumer v1 Servicegroups"
 					]
 				}
 			}
